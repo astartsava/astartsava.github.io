@@ -1,0 +1,189 @@
+#music {
+	width: 100%; position: relative; margin: 50px auto;
+	background-image: url(../images/greybg.png);
+}
+
+.music {
+	width: 750px; height: 750px;
+	-webkit-perspective: 1000;
+	
+}
+
+.card {
+	width: 150px; height: 150px;
+	
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: 0.5s;
+}
+	.container:hover .card {
+		-webkit-transform: rotateY(180deg);				
+	}
+
+.face {
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+}
+
+
+.taylor {
+	float: left; position: absolute; top: 30px; left: 50px;
+	
+}
+	.taylor .front {
+		
+	}
+	.taylor .back {
+		width: 150px; height: 150px; 
+		-webkit-transform: rotateY(-180deg);
+		
+	}
+		
+		.taylor img {
+			float: left;
+		}
+			
+	
+.marina {
+	float: left; position: absolute; top: 20px; left: 250px;
+	
+}
+	.marina .front {
+		
+	}
+	.marina .back {
+		width: 150px; height: 150px; 
+		-webkit-transform: rotateY(-180deg);
+		
+	}
+		
+		.marina img {
+			float: left;
+		}
+		
+.gogol {
+	float: left; position: absolute; top: 30px; left: 450px;
+	
+}
+	.gogol .front {
+		
+	}
+	.gogol .back {
+		width: 150px; height: 150px; 
+		-webkit-transform: rotateY(-180deg);
+		
+	}
+		
+		.gogol img {
+			float: left;
+		}
+			
+			
+.stromae {
+	float: left; position: absolute; top: 200px; left: 50px;
+	
+}
+	.stromae .front {
+		
+	}
+	.stromae .back {
+		width: 150px; height: 150px;		
+		-webkit-transform: rotateY(-180deg);
+		
+	}
+		
+		.stromae img {
+			float: left;
+		}
+	
+.vasya {
+	float: left; position: absolute; top: 200px; left: 250px;
+	
+}
+	.vasya .front {
+		
+	}
+	.vasya .back {
+		width: 150px; height: 150px;
+		-webkit-transform: rotateY(-180deg);
+		
+	}
+		
+		.vasya img {
+			float: left;
+		}	
+		
+.babylon {
+	float: left; position: absolute; top: 200px; left: 450px;
+	
+}
+	.babylon .front {
+		
+	}
+	.babylon .back {
+		width: 150px; height: 150px;
+		-webkit-transform: rotateY(-180deg);
+		
+	}
+		
+		.babylon img {
+			float: left;
+		}	
+		
+.ludovico {
+	float: left; position: absolute; top: 380px; left: 50px;
+	
+}
+	.ludovico .front {
+		
+	}
+	.ludovico .back {
+		width: 150px; height: 150px;
+		-webkit-transform: rotateY(-180deg);
+		
+	}
+		
+		.ludovico img {
+			float: left;
+		}
+			
+.maroon {
+	float: left; position: absolute; top: 380px; left: 250px;
+	
+}
+	.maroon .front {
+		
+	}
+	.maroon .back {
+		width: 150px; height: 150px;
+		-webkit-transform: rotateY(-180deg);
+		
+	}
+		
+		.maroon img {
+			float: left;
+		}	
+
+.lyapis {
+	float: left; position: absolute; top: 380px; left: 450px;
+	
+}
+	.lyapis .front {
+		
+	}
+	.lyapis .back {
+		width: 150px; height: 150px; 
+		-webkit-transform: rotateY(-180deg);
+		
+	}
+		
+		.lyapis img {
+			float: left;
+		}
+
+.front {
+	z-index: 10;
+}
+.container:hover .front {
+	z-index: 0;
+} 
+
