@@ -1,11 +1,13 @@
 #music {
-	width: 100%; position: relative; margin: 50px auto;
+	width: 100%; position: relative; margin-top: 50px auto;
 	background-image: url(../images/greybg.png);
 }
 
 .music {
 	width: 750px; height: 750px;
 	-webkit-perspective: 1000;
+	margin-top: 100px;
+	margin-left: 25%;
 	
 }
 

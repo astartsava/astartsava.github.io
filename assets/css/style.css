@@ -14,7 +14,7 @@ img {
 }
 
 a {
-	color: #E7746F;
+	color: #114bb6;
 }
 
 a:hover {
@@ -66,20 +66,22 @@ h1, h2, h3, h4, h5, h6 {
 	font: 700 40px/1.2 Raleway, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	margin: 5px 0 5px;
 	color: #1e1a1a;
 }
 
 h2 {
 	font-size: 30px;
-	margin: 0 0 30px;
+	margin-top: 50px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
 	
 }
 
 h3 {
 	font-size: 13px;
 	letter-spacing: 1px;
-	margin: 0 0 5px;
+	margin-top: 50px;
 }
 
 h4 {
@@ -612,7 +614,7 @@ textarea.form-control {
 .scroll-up a:hover,
 .scroll-up a:active {
 	background-color: rgba(235, 235, 235, .8);
-	color: #e7746f;
+	color: #114bb6;
 }
 
 /* ---------------------------------------------- /*
@@ -724,7 +726,7 @@ textarea.form-control {
 	height: 200px;
 	margin: 0;
 	padding: 0;
-	background: #fff;
+	
 	
 }
 .figure:hover+span {
@@ -1004,4 +1006,72 @@ figure.effect-bubba:hover p {
 	}
 
 }
+
+/* Buzz */
+@-webkit-keyframes buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+
+@keyframes buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+
+.buzz {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  margin-left: 100px;
+  margin-top: 150px;
+}
+.buzz:hover, .buzz:focus, .buzz:active {
+  -webkit-animation-name: buzz;
+  animation-name: buzz;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  
+}
+
+/* Rotate */
+.rotate {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.rotate:hover, .rotate:focus, .rotate:active {
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+
+#effects {
+  margin-top: 5em;
+}
+
 

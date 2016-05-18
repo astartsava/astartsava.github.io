@@ -1,6 +1,7 @@
 #books {
-	width: 100%; position: relative; margin: 150px auto; align-content: center;
+	width: 100%; position: relative; align-content: center;
 	background-image: url(../images/greybg.png);
+	
 	
 		
 }
@@ -10,6 +11,7 @@
 .book::before {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  
 }
 
 
@@ -21,6 +23,8 @@
 .list-inline {
   padding-left: 0;
   list-style: none;
+  margin-left: 25%;
+  margin-top: 10px;
 }
 .list-inline > li {
   display: inline-block;
@@ -42,6 +46,7 @@
   overflow: hidden;
   -webkit-transition: box-shadow .3s linear;
   transition: box-shadow .3s linear;
+ 
 }
 
 .book img {
