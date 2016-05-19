@@ -1,6 +1,7 @@
 #travel {
 	width: 100%; position: relative; margin: 50px auto;
 	background-image: url(../images/greybg.png);
+
 }
 
 .pics {
@@ -11,10 +12,9 @@
 
 ul {
     list-style-type: none; /* Заглавные буквы */
+   
    }
-   
-   
-   
+
 
 .pics a {
     background:#fff;
@@ -25,7 +25,6 @@ ul {
     text-align:center;
     text-decoration:none;
     font-size:28px;
-    
     font-weight:bold;
     -webkit-box-shadow:0px 0px 10px rgba(0,0,0,1);
     -moz-box-shadow:0px 0px 10px rgba(0,0,0,1);
@@ -35,6 +34,7 @@ ul {
     -o-transition:all .30s;
     transition:all .30s;
     position:absolute;
+    font-family: inherit;
     
 }
 .pics img {
@@ -46,6 +46,7 @@ ul {
 }
 .pics a:after {
     content:attr(title);
+    
 }
 
 /* Pictures placement, scaling and rotation */
