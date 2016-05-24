@@ -4,7 +4,7 @@
 }
 
 .music {
-	width: 750px; height: 750px;
+	
 	-webkit-perspective: 1000;
 	margin-top: 100px;
 	margin-left: 25%;
@@ -185,7 +185,8 @@
 .front {
 	z-index: 10;
 }
+
 .container:hover .front {
-	z-index: 0;
+	z-index: 10;
 } 
 
